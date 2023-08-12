@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-from todo import todo_router
-from model import Todo
+from todo_list_maker.todo import todo_router
+from todo_list_maker.model import Todo
 
 # to run a server run in cmd: (venv) uvicorn file_name:app --port 8000 --reload
 
